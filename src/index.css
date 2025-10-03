@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --main-color: #0aad0a;
+  --light-color: #f0f3f2;
+  --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px , rgba(145,158,171,.14) 0px 4px 5px 0px;
+  --font-family: "Open Sans", sans-serif;
+  --rating-color:#ffc908;
+}
+
+body{
+  font-family: var(--font-family) !important;
+}
+
