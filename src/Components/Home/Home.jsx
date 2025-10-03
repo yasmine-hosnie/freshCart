@@ -31,7 +31,7 @@ export default function Home() {
       <MainSlider />
       <CategoriesSlider />
       {products.length ? (
-        <div className="flex flex-wrap m-3">
+        <div className="flex flex-wrap m-3 justify-center">
           <Products />
         </div>
       ) : (
