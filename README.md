@@ -1,16 +1,54 @@
-<<<<<<< HEAD
-# React + Vite
+# 🛒 FreshCart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FreshCart is a modern **E-commerce web application** built with **React + Vite**.  
+It provides a seamless shopping experience where users can browse products, add them to cart or wishlist, register/login, and complete checkout securely.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 [View FreshCart on GitHub Pages](https://yasmine-hosnie.github.io/freshcart/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# freshcart
->>>>>>> f3dc76bbf3f19304410d5a26f2d5b5cdf0c00ad0
+## ✨ Features
+- 🏠 Home page with product sliders and categories
+- 🛍️ Browse products with detailed views
+- ❤️ Add/remove items to Wishlist
+- 🛒 Shopping Cart with full functionality
+- ✅ Checkout page with order placement
+- 🔑 Authentication (Register & Login)
+- 🔒 Protected routes for logged-in users
+- 📱 Fully responsive design (desktop, tablet, mobile)
+
+---
+
+## 🛠️ Tech Stack
+- ⚛️ React 18 + Vite  
+- 🎨 TailwindCSS + CSS Modules  
+- 🔄 React Query (TanStack)  
+- 🌐 Axios for API requests  
+- 🚏 React Router DOM  
+- 🔔 React Hot Toast  
+- 🖼️ Lucide React Icons  
+
+---
+
+## 📦 Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/yasmine-hosnie/freshcart.git
+
+# Navigate into the project
+cd freshcart
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
